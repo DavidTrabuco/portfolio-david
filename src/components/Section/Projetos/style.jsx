@@ -1,5 +1,5 @@
 export const ProjetosStyles = {
-  section: "relative bg-gray-900 w-full overflow-hidden",
+  section: "relative bg-black w-full overflow-hidden",
  
   glow: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-blue-600/10 rounded-full blur-3xl pointer-events-none",
  

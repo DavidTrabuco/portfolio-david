@@ -1,6 +1,6 @@
  
 export const FooterStyles = {
-  footer: "relative bg-gray-900 w-full overflow-hidden border-t border-white/10",
+  footer: "relative bg-black w-full overflow-hidden border-t border-white/10",
  
   glow: "absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-blue-600/10 rounded-full blur-3xl pointer-events-none",
  
