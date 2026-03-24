@@ -1,16 +1,64 @@
-# React + Vite
+# 🌐 Projeto – Portfólio Pessoal
+ 
+Este projeto foi desenvolvido com o objetivo de apresentar minha trajetória, habilidades e projetos como desenvolvedor front-end. Construído com foco em design moderno e responsivo, o portfólio serve como vitrine profissional para recrutadores e outros desenvolvedores.
+ 
+O foco do projeto é a criação de uma interface limpa e atraente, aplicando na prática os conhecimentos adquiridos em React e Tailwind CSS, com atenção à experiência do usuário e à responsividade em diferentes dispositivos.
+ 
+---
+ 
+## 🛠 Tecnologias e Ferramentas Utilizadas
+ 
+* **React** – Biblioteca para construção de interfaces
+* **Tailwind CSS** – Estilização utilitária e responsiva
+* **Vite** – Ambiente de desenvolvimento e bundler
+* **JavaScript (ES6+)**
+* **HTML5 & CSS3**
+ 
+---
+ 
+## 📚 Conceitos Aplicados
+ 
+Durante o desenvolvimento do projeto, foram aplicados os seguintes conceitos:
+ 
+* Componentização e reutilização de componentes com React
+* Estilização responsiva utilizando classes utilitárias do Tailwind CSS
+* Organização e estruturação de projetos front-end
+* Boas práticas de desenvolvimento de interfaces
+* Design responsivo para diferentes tamanhos de tela
+* Uso de props e gerenciamento de estado básico
+ 
+---
+ 
+## 📺 Referências
+ 
+Para a construção do projeto, utilizei como apoio:
+ 
+* Documentação oficial do React
+* Documentação oficial do Tailwind CSS
+* Tutoriais e vídeos educacionais no YouTube sobre:
+  * Componentização com React
+  * Tailwind CSS na prática
+  * Boas práticas de portfólio front-end
+ 
+---
+ 
+## 📱 Responsividade do Projeto
+ 
+O projeto foi desenvolvido com foco em responsividade, garantindo uma boa experiência em diferentes dispositivos:
+ 
+* 🖥 Desktop
+* 💻 Notebook
+* 📱 Smartphone
+* 📟 Tablet
+ 
+---
+ 
+## 📁 Estrutura do Projeto
+ 
+<img width="1834" height="911" alt="image" src="https://github.com/user-attachments/assets/5663e1c2-2184-4e55-aac5-2340dbdb56cc" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
