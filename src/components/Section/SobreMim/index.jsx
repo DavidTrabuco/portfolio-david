@@ -58,7 +58,7 @@ export default function SobreMim() {
  
           <div className={styles.statsWrapper}>
             <div className={styles.statItem}>
-              <span className={styles.statNumero}>2+</span>
+              <span className={styles.statNumero}>1+</span>
               <span className={styles.statLabel}>Anos estudando</span>
             </div>
             <div className={styles.statItem}>

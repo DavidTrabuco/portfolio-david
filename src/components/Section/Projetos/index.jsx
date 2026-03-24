@@ -1,11 +1,11 @@
 import { FaArrowRight } from "react-icons/fa";
 import { ProjetosStyles  } from "./style";
 import Photo1 from "../../../share/Projetos/Projeto_Apple.png";
-import Photo3 from "../../../share/Projetos/Gerador.png";
-import Photo4 from "../../../share/Projetos/image.png";
-import Photo5 from "../../../share/Projetos/Pizzaria.jpeg";
-import Photo6 from "../../../share/Projetos/ProjetoA3.png";
-import Photo7 from "../../../share/Projetos/ProjetoBarber.png";
+import Photo2 from "../../../share/Projetos/Gerador.png";
+import Photo3 from "../../../share/Projetos/Pizzaria.jpeg";
+import Photo4 from "../../../share/Projetos/ProjetoA3.png";
+import Photo5 from "../../../share/Projetos/ProjetoBarber.png";
+import Photo6 from "../../../share/Projetos/Cisco.png";
 import PhotoAvatar from "../../../share/o/imagem_circular_transparente.png";
  
 const projetos = [
@@ -18,31 +18,31 @@ const projetos = [
   {
     titulo: "Projeto Pizzaria ",
     descricao: "Fiz o primeiro projeto envolvendo React e Tailwind CSS e mexendo com React Routers .",
-    imagem: Photo5,
+    imagem: Photo3,
     link: "https://github.com/DavidTrabuco/Pizzaria-David",
   },
   {
     titulo: "Gerador de QRCODE",
     descricao: "Fiz um gerador de QRCODE com HTML, CSS, JavaScript e React utilizando fetch API.",
-    imagem: Photo3,
+    imagem: Photo2,
     link: "https://github.com/DavidTrabuco/Gerador-QRCODE",
   },
   {
-    titulo: "Projeto Login HTML e CSS",
-    descricao: "Fiz meu primeiro projeto quando comecei a gostar da tecnologia.",
-    imagem: Photo4,
-    link: "https://github.com/DavidTrabuco/PROJETO-LOGIN",
+    titulo: "Trabalho TCP/IP",
+    descricao: "Fiz meu primeiro projeto de faculdade usando CISCO PACKET TRACER.",
+    imagem: Photo6,
+    link: "https://github.com/DavidTrabuco/Trabalho-Faculdade-TCP-IP",
   },
   {
     titulo: "Projeto BarberShop",
-    descricao: "Fiz um site de uma Barbearia.",
-    imagem: Photo7,
+    descricao: "Fiz um site de uma Barbearia usando Bootstrap.",
+    imagem: Photo5,
     link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
   },
   {
     titulo: "Trabalho Faculdade",
     descricao: "Nosso grupo criou um Sistema CRUD de Eventos Culturais em Java puro.",
-    imagem: Photo6,
+    imagem: Photo4,
     link: "https://github.com/DavidTrabuco/Trabalho-A3-PSC",
   },
 ];
