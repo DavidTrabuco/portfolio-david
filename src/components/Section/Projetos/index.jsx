@@ -19,7 +19,7 @@ const projetos = [
     titulo: "Projeto Pizzaria ",
     descricao: "Fiz o primeiro projeto envolvendo React e Tailwind CSS e mexendo com React Routers .",
     imagem: Photo3,
-    link: "https://github.com/DavidTrabuco/Pizzaria-David",
+    link: "https://github.com/DavidTrabuco/Atividade-React-Organizacao",
   },
   {
     titulo: "Gerador de QRCODE",
