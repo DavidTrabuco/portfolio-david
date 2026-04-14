@@ -2,10 +2,11 @@ import { FaArrowRight } from "react-icons/fa";
 import { ProjetosStyles  } from "./style";
 import Photo1 from "../../../share/Projetos/Projeto_Apple.png";
 import Photo2 from "../../../share/Projetos/Gerador.png";
-import Photo3 from "../../../share/Projetos/Pizzaria.jpeg";
+import Photo3 from "../../../share/Projetos/PizzariaATT.png";
 import Photo4 from "../../../share/Projetos/ProjetoA3.png";
 import Photo5 from "../../../share/Projetos/ProjetoBarber.png";
 import Photo6 from "../../../share/Projetos/Cisco.png";
+
 import PhotoAvatar from "../../../share/o/imagem_circular_transparente.png";
  
 const projetos = [
@@ -16,8 +17,8 @@ const projetos = [
     link: "https://github.com/DavidTrabuco/Projeto-Apple.",
   },
   {
-    titulo: "Projeto Pizzaria ",
-    descricao: "Fiz o primeiro projeto envolvendo React e Tailwind CSS e mexendo com React Routers .",
+    titulo: "Pizzaria House ",
+    descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um site de uma pizzaria usando React e maxendo com banco de dados ",
     imagem: Photo3,
     link: "https://github.com/DavidTrabuco/Atividade-React-Organizacao",
   },
