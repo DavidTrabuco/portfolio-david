@@ -1,7 +1,9 @@
 import {
   FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaNetworkWired,
+  FaKissWinkHeart,
+  FaTypo3,
 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiSwagger, SiNestjs, SiTypescript } from "react-icons/si";
 import { TechStyles  } from "./style";
 
 const tecnologias = [
@@ -20,6 +22,18 @@ const tecnologias = [
   {
     nome: "JavaScript",
     icone: <FaJs className={TechStyles.icone} style={{ color: "#FFD43B" }} />,
+  },
+  {
+    nome: "TypeScript",
+    icone: <SiTypescript className={TechStyles.icone} style={{ color: "#3178C6" }} />,
+  },
+  {
+    nome : "Swagger",
+    icone: <SiSwagger className={TechStyles.icone} style={{ color: "#85EA2D" }} />,
+  },
+  {
+    nome: "NestJS",
+    icone: <SiNestjs className={TechStyles.icone} style={{ color: "#E0234E" }} />,
   },
   {
     nome: "React",
@@ -76,4 +90,4 @@ export default function Tech() {
       </div>
     </section>
   );
-}
+} 

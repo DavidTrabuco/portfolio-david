@@ -4,23 +4,30 @@ import Photo1 from "../../../share/Projetos/Projeto_Apple.png";
 import Photo2 from "../../../share/Projetos/Gerador.png";
 import Photo3 from "../../../share/Projetos/PizzariaATT.png";
 import Photo4 from "../../../share/Projetos/ProjetoA3.png";
-import Photo5 from "../../../share/Projetos/ProjetoBarber.png";
+import Photo5 from "../../../share/Projetos/barberstudios.png";
 import Photo6 from "../../../share/Projetos/Cisco.png";
+
 
 import PhotoAvatar from "../../../share/o/imagem_circular_transparente.png";
  
 const projetos = [
   {
-    titulo: "Landing Page Apple",
-    descricao: "Fiz uma landing page da apple estudando no curso Hora de Codar com HTML, CSS e JavaScript.",
-    imagem: Photo1,
-    link: "https://github.com/DavidTrabuco/Projeto-Apple.",
+    titulo: "Projeto BarberShop",
+    descricao: "Fiz um site de uma Barbearia usando React com TypeSript e TailWind.",
+    imagem: Photo5,
+    link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
   },
   {
     titulo: "Pizzaria House ",
-    descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um site de uma pizzaria usando React e maxendo com banco de dados ",
+    descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um sistema de gestão de uma pizzaria usando React e mexendo com banco de dados ",
     imagem: Photo3,
     link: "https://github.com/DavidTrabuco/Atividade-React-Organizacao",
+  },
+  {
+    titulo: "Projeto Page Apple",
+    descricao: "Fiz uma landing page da apple estudando no curso Hora de Codar com HTML, CSS e JavaScript.",
+    imagem: Photo1,
+    link: "https://github.com/DavidTrabuco/Projeto-Apple.",
   },
   {
     titulo: "Gerador de QRCODE",
@@ -33,12 +40,6 @@ const projetos = [
     descricao: "Fiz meu primeiro projeto de faculdade usando CISCO PACKET TRACER.",
     imagem: Photo6,
     link: "https://github.com/DavidTrabuco/Trabalho-Faculdade-TCP-IP",
-  },
-  {
-    titulo: "Projeto BarberShop",
-    descricao: "Fiz um site de uma Barbearia usando Bootstrap.",
-    imagem: Photo5,
-    link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
   },
   {
     titulo: "Trabalho Faculdade",
