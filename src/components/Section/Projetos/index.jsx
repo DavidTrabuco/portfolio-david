@@ -13,7 +13,7 @@ import PhotoAvatar from "../../../share/o/imagem_circular_transparente.png";
 const projetos = [
   {
     titulo: "Projeto BarberShop",
-    descricao: "Fiz um site de uma Barbearia usando React com TypeSript e TailWind.",
+    descricao: "Fiz um landing page de uma Barbearia usando React com TypeSript e TailWind.",
     imagem: Photo5,
     link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
   },
@@ -25,9 +25,9 @@ const projetos = [
   },
   {
     titulo: "Projeto Page Apple",
-    descricao: "Fiz uma landing page da apple estudando no curso Hora de Codar com HTML, CSS e JavaScript.",
+    descricao: "Fiz uma landing page da apple, esse projeto peguei o meu ultimo projeto de landing page da Apple apenas com HTML e CSS  e refiz usando React e TailWind CSS.",
     imagem: Photo1,
-    link: "https://github.com/DavidTrabuco/Projeto-Apple.",
+    link: "https://github.com/DavidTrabuco/Projeto-Apple-React-TS.",
   },
   {
     titulo: "Gerador de QRCODE",
