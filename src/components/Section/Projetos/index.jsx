@@ -19,7 +19,7 @@ const projetos = [
   },
   {
     titulo: "Pizzaria House ",
-    descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um sistema de gestão de uma pizzaria usando React e mexendo com banco de dados ",
+    descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um sistema de gestão de uma pizzaria aplicando do código ao deploy...",
     imagem: Photo3,
     site: "https://pizzaria-trabuco.vercel.app",
     link: "https://github.com/DavidTrabuco/Projeto-Pizzaria-TS-React-",
