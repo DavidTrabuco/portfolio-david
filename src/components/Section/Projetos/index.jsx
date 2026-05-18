@@ -21,7 +21,8 @@ const projetos = [
     titulo: "Pizzaria House ",
     descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um sistema de gestão de uma pizzaria usando React e mexendo com banco de dados ",
     imagem: Photo3,
-    link: "https://github.com/DavidTrabuco/Atividade-React-Organizacao",
+    site: "https://pizzaria-trabuco.vercel.app",
+    link: "https://github.com/DavidTrabuco/Projeto-Pizzaria-TS-React-",
   },
   {
     titulo: "Projeto Page Apple",
@@ -88,6 +89,13 @@ export default function Projetos() {
                 <h3 className={ProjetosStyles.cardTitulo}>{projeto.titulo}</h3>
  
                 <p className={ProjetosStyles.cardDescricao}>{projeto.descricao}</p>
+
+                {projeto.site && (
+                  <a href={projeto.site} className={ProjetosStyles.site} target="_blank" rel="noreferrer">
+                    Ver site
+                     <FaArrowRight className={ProjetosStyles.linkIconeSite} />
+                  </a>
+                )}
  
                 {/* Rodapé */}
                 <div className={ProjetosStyles.cardFooter}>
@@ -102,9 +110,10 @@ export default function Projetos() {
                   </div>
  
                   <a href={projeto.link} className={ProjetosStyles.link} target="_blank" rel="noreferrer">
-                    Ver projeto
+                    Ver projeto em deploy 
                     <FaArrowRight className={ProjetosStyles.linkIcone} />
                   </a>
+                  
  
                 </div>
  

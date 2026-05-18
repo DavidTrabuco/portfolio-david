@@ -47,5 +47,9 @@ export const ProjetosStyles = {
   link: "inline-flex items-center gap-1.5 text-sm font-semibold text-blue-400 hover:text-cyan-400 transition-colors duration-200",
  
   linkIcone: "w-4 h-4 transition-transform duration-200 group-hover:translate-x-1",
+
+  site: "group/site inline-flex items-center gap-1.5 text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors duration-200 self-start mb-4 outline-none focus:outline-none focus-visible:outline-none",
+
+  linkIconeSite: "w-4 h-4 transition-transform duration-200 group-hover/site:translate-x-1",
 };
  
