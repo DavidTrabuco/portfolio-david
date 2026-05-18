@@ -92,7 +92,7 @@ export default function Projetos() {
 
                 {projeto.site && (
                   <a href={projeto.site} className={ProjetosStyles.site} target="_blank" rel="noreferrer">
-                    Ver site
+                    Ver site em deploy 
                      <FaArrowRight className={ProjetosStyles.linkIconeSite} />
                   </a>
                 )}
@@ -110,7 +110,7 @@ export default function Projetos() {
                   </div>
  
                   <a href={projeto.link} className={ProjetosStyles.link} target="_blank" rel="noreferrer">
-                    Ver projeto em deploy 
+                    Ver projeto no GitHub
                     <FaArrowRight className={ProjetosStyles.linkIcone} />
                   </a>
                   
