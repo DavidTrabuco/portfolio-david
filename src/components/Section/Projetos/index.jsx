@@ -6,16 +6,17 @@ import Photo3 from "../../../share/Projetos/PizzariaATT.png";
 import Photo4 from "../../../share/Projetos/ProjetoA3.png";
 import Photo5 from "../../../share/Projetos/barberstudios.png";
 import Photo6 from "../../../share/Projetos/Cisco.png";
+import Photo7 from "../../../share/Projetos/AgenteIA.png"
 
 
 import PhotoAvatar from "../../../share/o/imagem_circular_transparente.png";
  
 const projetos = [
   {
-    titulo: "Projeto BarberShop",
-    descricao: "Fiz um landing page de uma Barbearia usando React com TypeSript e TailWind.",
-    imagem: Photo5,
-    link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
+    titulo: "Protótipo TutorIA",
+    descricao: "Esse projeto foi um trabalho de faculdade, onde fiquei responsável pela parte do WebApp e utlizei práticas que uso aqui como Docker para rodar em ambientes isolados  , Fizemos um protótipo de um agente de IA relacionado a educação .",
+    imagem: Photo7,
+    link: "https://github.com/DavidTrabuco/Agente-Tutor-IA-",
   },
   {
     titulo: "Pizzaria House ",
@@ -29,6 +30,12 @@ const projetos = [
     descricao: "Fiz uma landing page da apple, esse projeto peguei o meu ultimo projeto de landing page da Apple apenas com HTML e CSS  e refiz usando React e TailWind CSS.",
     imagem: Photo1,
     link: "https://github.com/DavidTrabuco/Projeto-Apple-React-TS.",
+  },
+  {
+    titulo: "Projeto BarberShop",
+    descricao: "Fiz um landing page de uma Barbearia usando React com TypeSript e TailWind.",
+    imagem: Photo5,
+    link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
   },
   {
     titulo: "Gerador de QRCODE",
