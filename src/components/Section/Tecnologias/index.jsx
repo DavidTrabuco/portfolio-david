@@ -2,6 +2,7 @@ import {
   FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaNetworkWired,
   FaKissWinkHeart,
   FaTypo3,
+  FaDocker,
 } from "react-icons/fa";
 import { SiTailwindcss, SiSwagger, SiNestjs, SiTypescript } from "react-icons/si";
 import { TechStyles  } from "./style";
@@ -55,6 +56,10 @@ const tecnologias = [
   {
     nome: "Cisco | Arq. Redes",
     icone: <FaNetworkWired className={TechStyles.icone} style={{ color: "#1BA0D7" }} />,
+  },
+  {
+    nome: "Docker",
+    icone: <FaDocker className={TechStyles.icone} style={{color: "#38BDF8" }} />
   },
 ];
 
