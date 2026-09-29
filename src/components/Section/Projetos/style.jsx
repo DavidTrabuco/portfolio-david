@@ -25,6 +25,15 @@ export const ProjetosStyles = {
  
   imagem: "w-full h-full object-cover transition-transform duration-700 group-hover:scale-105",
  
+  // Capa para projetos sem imagem (APIs)
+  capaApi: "w-full h-full flex flex-col items-center justify-center gap-4 px-6 bg-gradient-to-br from-blue-950 via-gray-900 to-cyan-950 transition-transform duration-700 group-hover:scale-105",
+
+  capaApiTitulo: "font-mono text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400",
+
+  capaApiStack: "flex flex-wrap justify-center gap-2",
+
+  capaApiTag: "px-2.5 py-1 text-xs font-medium text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 rounded-full",
+
   imagemOverlay: "absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent",
  
   // Conteúdo do card

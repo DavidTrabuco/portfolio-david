@@ -2,9 +2,10 @@ import {
   FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaNetworkWired,
   FaKissWinkHeart,
   FaTypo3,
-  FaDocker,
+  FaDocker
 } from "react-icons/fa";
-import { SiTailwindcss, SiSwagger, SiNestjs, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiSwagger, SiNestjs, SiTypescript, SiDotnet } from "react-icons/si";
+import {TbBrandCSharp } from "react-icons/tb"
 import { TechStyles  } from "./style";
 
 const tecnologias = [
@@ -33,8 +34,12 @@ const tecnologias = [
     icone: <SiSwagger className={TechStyles.icone} style={{ color: "#85EA2D" }} />,
   },
   {
-    nome: "NestJS",
-    icone: <SiNestjs className={TechStyles.icone} style={{ color: "#E0234E" }} />,
+    nome: "C#",
+    icone: <TbBrandCSharp className={TechStyles.icone} style={{ color: "#ba23e0" }} />,
+  },
+    {
+    nome: ".NET",
+    icone: <SiDotnet className={TechStyles.icone} style={{ color: "#512BD4" }} />,
   },
   {
     nome: "React",
@@ -61,6 +66,7 @@ const tecnologias = [
     nome: "Docker",
     icone: <FaDocker className={TechStyles.icone} style={{color: "#38BDF8" }} />
   },
+
 ];
 
 export default function Tech() {

@@ -13,47 +13,65 @@ import PhotoAvatar from "../../../share/o/imagem_circular_transparente.png";
  
 const projetos = [
   {
-    titulo: "Protótipo TutorIA",
-    descricao: "Esse projeto foi um trabalho de faculdade, onde fiquei responsável pela parte do WebApp e utlizei práticas que uso aqui como Docker para rodar em ambientes isolados  , Fizemos um protótipo de um agente de IA relacionado a educação .",
-    imagem: Photo7,
-    link: "https://github.com/DavidTrabuco/Agente-Tutor-IA-",
+    titulo: "EventFlow API",
+    descricao: "API de gestão de eventos e ingressos em ASP.NET Core 10. Autenticação JWT em cookie HttpOnly com sessão revogável, autorização por perfil, PostgreSQL no Docker, jobs em background com Hangfire, envio de e-mail por SMTP e testes automatizados.",
+    stack: ["ASP.NET Core 10", "PostgreSQL", "Docker", "Hangfire", "JWT"],
+    link: "https://github.com/DavidTrabuco/EventFlowAPI",
   },
   {
-    titulo: "Pizzaria House ",
-    descricao: "Esse é o meu projeto na qual estou trabalhando atualmente, é um sistema de gestão de uma pizzaria aplicando do código ao deploy...",
+    titulo: "ShopFlow",
+    descricao: "API de e-commerce B2C em ASP.NET Core (.NET 10), com foco em confiabilidade de estoque e pagamento. Usa EF Core para migrations, Dapper nas consultas, PostgreSQL no Docker e autenticação JWT em cookie HttpOnly.",
+    stack: ["ASP.NET Core 10", "EF Core", "Dapper", "PostgreSQL", "JWT"],
+    link: "https://github.com/DavidTrabuco/ShopFlow",
+  },
+  {
+    titulo: "Banking API",
+    descricao: "Meu primeiro projeto em C#: API REST de um banco digital com contas, depósitos, saques, transferências e extrato. Arquitetura em camadas, JWT em cookie HttpOnly, senha com BCrypt e regra que impede o cliente de acessar contas de outros.",
+    stack: ["ASP.NET Core 8", "EF Core", "Dapper", "JWT", "React"],
+    link: "https://github.com/DavidTrabuco/Banking-API",
+  },
+  {
+    titulo: "Pizzaria House",
+    descricao: "Sistema de gestão de uma pizzaria com React e TypeScript, do código ao deploy. É o projeto em que estou trabalhando atualmente.",
     imagem: Photo3,
     site: "https://pizzaria-trabuco.vercel.app",
     link: "https://github.com/DavidTrabuco/Projeto-Pizzaria-TS-React-",
   },
   {
-    titulo: "Projeto Page Apple",
-    descricao: "Fiz uma landing page da apple, esse projeto peguei o meu ultimo projeto de landing page da Apple apenas com HTML e CSS  e refiz usando React e TailWind CSS.",
-    imagem: Photo1,
-    link: "https://github.com/DavidTrabuco/Projeto-Apple-React-TS.",
+    titulo: "Protótipo TutorIA",
+    descricao: "Protótipo de um agente de IA voltado para educação, feito em grupo na faculdade. Fiquei responsável pelo WebApp e usei Docker para rodar a aplicação em ambientes isolados.",
+    imagem: Photo7,
+    link: "https://github.com/DavidTrabuco/Agente-Tutor-IA-",
   },
   {
     titulo: "Projeto BarberShop",
-    descricao: "Fiz um landing page de uma Barbearia usando React com TypeSript e TailWind.",
+    descricao: "Landing page de uma barbearia feita com React, TypeScript e Tailwind CSS.",
     imagem: Photo5,
-    link: "https://github.com/DavidTrabuco/Projeto_Barbearia",
+    link: "https://github.com/DavidTrabuco/Projeto-BARBER-TS",
   },
   {
-    titulo: "Gerador de QRCODE",
-    descricao: "Fiz um gerador de QRCODE com HTML, CSS, JavaScript e React utilizando fetch API.",
+    titulo: "Landing Page Apple",
+    descricao: "Refiz minha antiga landing page da Apple, feita só com HTML e CSS, agora usando React e Tailwind CSS.",
+    imagem: Photo1,
+    link: "https://github.com/DavidTrabuco/Projeto-Apple-React-TS",
+  },
+  {
+    titulo: "CRUD de Eventos Culturais",
+    descricao: "Trabalho em grupo da faculdade: um sistema CRUD de eventos culturais em Java puro.",
+    imagem: Photo4,
+    link: "https://github.com/DavidTrabuco/Trabalho-A3-PSC",
+  },
+  {
+    titulo: "Gerador de QR Code",
+    descricao: "Gerador de QR Code com React, consumindo uma API externa com fetch.",
     imagem: Photo2,
     link: "https://github.com/DavidTrabuco/Gerador-QRCODE",
   },
   {
     titulo: "Trabalho TCP/IP",
-    descricao: "Fiz meu primeiro projeto de faculdade usando CISCO PACKET TRACER.",
+    descricao: "Meu primeiro projeto da faculdade: simulação de uma rede no Cisco Packet Tracer.",
     imagem: Photo6,
     link: "https://github.com/DavidTrabuco/Trabalho-Faculdade-TCP-IP",
-  },
-  {
-    titulo: "Trabalho Faculdade",
-    descricao: "Nosso grupo criou um Sistema CRUD de Eventos Culturais em Java puro.",
-    imagem: Photo4,
-    link: "https://github.com/DavidTrabuco/Trabalho-A3-PSC",
   },
 ];
  
@@ -81,13 +99,26 @@ export default function Projetos() {
  
               {/* Imagem */}
               <div className={ProjetosStyles.imagemWrapper}>
-                <img
-                  src={projeto.imagem}
-                  alt={projeto.titulo}
-                  className={ProjetosStyles.imagem}
-                  loading="lazy"
-                />
-                <div className={ProjetosStyles.imagemOverlay} />
+                {projeto.imagem ? (
+                  <>
+                    <img
+                      src={projeto.imagem}
+                      alt={projeto.titulo}
+                      className={ProjetosStyles.imagem}
+                      loading="lazy"
+                    />
+                    <div className={ProjetosStyles.imagemOverlay} />
+                  </>
+                ) : (
+                  <div className={ProjetosStyles.capaApi}>
+                    <span className={ProjetosStyles.capaApiTitulo}>{"{ " + projeto.titulo + " }"}</span>
+                    <div className={ProjetosStyles.capaApiStack}>
+                      {projeto.stack?.map((tec) => (
+                        <span key={tec} className={ProjetosStyles.capaApiTag}>{tec}</span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
  
               {/* Corpo */}
