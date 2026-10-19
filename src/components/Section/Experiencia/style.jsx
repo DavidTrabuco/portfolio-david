@@ -1,0 +1,15 @@
+export const ExperienciaStyles = {
+      section: "relative bg-black w-full overflow-hidden",
+      container: "relative z-10 py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6",
+      containerTopo: "text-center mb-16",
+      titulo: "text-4xl font-extrabold text-white mb-4",
+      textodestaque: "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400",
+      divider: "w-12 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mx-auto mt-4",
+      containerEmpresas: "max-w-7xl mx-auto grid gap-6",
+      card: "group flex flex-col p-6 lg:p-8 bg-white/5 border border-white/10 rounded-2xl hover:border-blue-500/40 hover:bg-blue-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/10",
+      cabecalhoCard: "flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-6",
+      empresa: "text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300",
+      cargo: "text-base text-gray-300 font-semibold",
+      periodo: "self-start px-3 py-1 text-xs font-medium text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 rounded-full whitespace-nowrap",
+      descricao: "space-y-3 list-disc pl-5 text-sm font-light text-gray-400 leading-relaxed lg:text-base marker:text-cyan-400",
+}
