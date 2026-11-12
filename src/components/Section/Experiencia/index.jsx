@@ -11,11 +11,14 @@ export default function Experiencia() {
             cargo: "Desenvolvedor Front-End / Design",
             periodo: "05/2026  - até o  momento",
             descricao: [
-                "Integro telas com APIs REST, tratando estados de carregamento, erros (400, 401, 403, 500) e validação de dados.",
-                "Implemento fluxos de autenticação no front, como login, rotas protegidas e envio de token ou cookie nas requisições.",
-                "Defino com o time de back- end os contratos das APIs: quais campos cada endpoint recebe e devolve.",
-                "Leio a documentação das APIs no Swagger e testo endpoints antes de integrá - los à interface.",
-                "Investigo bugs na fronteira entre front e back, identificando se a falha está na tela ou na resposta da API."
+
+                `Atuação na área da saúde dentro da Prefeitura de Salvador no desenvolvimento e manutenção de aplicações web dinâmicas e responsivas utilizando React e TypeScript. 
+                Responsável pela criação de componentes reutilizáveis, consumo de APIs REST e otimização de performance da interface, garantindo uma navegação fluida, acessível e integrada às necessidades do negócio.`,
+                `Integro telas com APIs REST, tratando estados de carregamento, erros (400, 401, 403, 500) e validação de dados.,
+                Implemento fluxos de autenticação no front, como login, rotas protegidas e envio de token ou cookie nas requisições,
+                Defino com o time de back- end os contratos das APIs: quais campos cada endpoint recebe e devolve,
+                Leio a documentação das APIs no Swagger e testo endpoints antes de integrá - los à interface,
+                Investigo bugs na fronteira entre front e back, identificando se a falha está na tela ou na resposta da API.`
 
             ]
 
